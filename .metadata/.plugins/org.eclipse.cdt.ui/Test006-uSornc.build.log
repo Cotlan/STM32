@@ -1,0 +1,31 @@
+17:07:02 **** Build of configuration Debug for project Test006-uSornc ****
+make -j24 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "C:/Users/user/source/repos/STM32/myLib/uSonic.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/uSonic.d" -MT"Core/Src/uSonic.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/uSonic.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:100:3: warning: implicit declaration of function 'ProgramStart' [-Wimplicit-function-declaration]
+  100 |   ProgramStart ("Ultra Sonic SR-04(SRF-05");
+      |   ^~~~~~~~~~~~
+../Core/Src/main.c:126:20: warning: implicit declaration of function 'Distance' [-Wimplicit-function-declaration]
+  126 |      double dist = Distance();
+      |                    ^~~~~~~~
+../Core/Src/main.c:127:6: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  127 |      printf("Distance : %f\r\n", dist);
+      |      ^~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:127:6: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  127 |      printf("Distance : %f\r\n", dist);
+      |      ^~~~~~
+../Core/Src/main.c:127:6: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "Test006-uSornc.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\Test006-uSornc\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Test006-uSornc.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.14.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/main.o: in function `main':
+C:/Users/user/source/repos/STM32/Test006-uSornc/Debug/../Core/Src/main.c:126: undefined reference to `Distance'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:64: Test006-uSornc.elf] Error 1
+"make -j24 all" terminated with exit code 2. Build might be incomplete.
+
+17:07:03 Build Failed. 2 errors, 4 warnings. (took 651ms)
+

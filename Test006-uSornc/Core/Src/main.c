@@ -59,51 +59,10 @@ static void MX_TIM2_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-void microDelay(int us) // us : micro second
-{
-   int t1 = htim2.Instance->CNT;
-//   while(1)
-//   {
-//      if(htim2.Instance->CNT - t1 >= us) break;
-//   }
-   while(htim2.Instance->CNT - t1 < us);
-//   htim2.Instance->CNT = 0;
-//   while(htim2.Instance->CNT < us);
-}
-void Trigger()
-{
-   HAL_GPIO_WritePin(Trig_GPIO_Port, Trig_Pin, 0);
-   microDelay(10);
-   HAL_GPIO_WritePin(Trig_GPIO_Port, Trig_Pin, 1);
-   microDelay(10);
-   HAL_GPIO_WritePin(Trig_GPIO_Port, Trig_Pin, 0);
-}
-double Distance()
-{
-   //int t1, t2;
-   int t0, t1, t2;
-   htim2.Instance->CNT = 0;
-   Trigger();
-   // wait unitl Echo high
-   //while(!(HAL_GPIO_ReadPin(Echo_GPIO_Port, Echo_Pin)) == 1);
-   //while((HAL_GPIO_ReadPin(Echo_GPIO_Port, Echo_Pin)) == 0);
-   while((HAL_GPIO_ReadPin(Echo_GPIO_Port, Echo_Pin)) == 0)
-   {
-      if(htim2.Instance->CNT > 30000) return -1; // TimeOut
-   }
-   t1 = htim2.Instance->CNT;
-   //while(!(HAL_GPIO_ReadPin(Echo_GPIO_Port, Echo_Pin)) == 0);
-   //while((HAL_GPIO_ReadPin(Echo_GPIO_Port, Echo_Pin)) == 1);
-   while((HAL_GPIO_ReadPin(Echo_GPIO_Port, Echo_Pin)) == 1)
-   {
-      if(htim2.Instance->CNT > t1 + 60000) return -1; // TimeOut
-   }
-   // distance = { ( 0.340 * (t2 - t1) ) / 2 }mm , 2: ?™•ë³µì´ë¯?ë¡? ê±°ë¦¬?Š” 2ë¡? ?‚˜?ˆ ?•¼ ?•¨
-   t2 = htim2.Instance->CNT;
 
-   double dist = (t2 - t1) * 0.17;
-   return dist;
-}
+//ISR should deal the
+
+
 
 /* USER CODE END 0 */
 
@@ -161,7 +120,7 @@ int main(void)
 //     //while(!(HAL_GPIO_ReadPin(Echo_GPIO_Port, Echo_Pin)) == 0);
 //     while((HAL_GPIO_ReadPin(Echo_GPIO_Port, Echo_Pin)) == 1);
 //     t2 = htim2.Instance->CNT;
-//     // distance = { ( 0.340 * (t2 - t1) ) / 2 }mm , 2: ?™•ë³µì´ë¯?ë¡? ê±°ë¦¬?Š” 2ë¡? ?‚˜?ˆ ?•¼ ?•¨
+//     // distance = { ( 0.340 * (t2 - t1) ) / 2 }mm , 2: ?ï¿½ï¿½ë³µì´ï¿½?ï¿½? ê±°ë¦¬?ï¿½ï¿½ 2ï¿½? ?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½ ?ï¿½ï¿½
 //
 //     double dist = (t2 - t1) * 0.17;
      double dist = Distance();

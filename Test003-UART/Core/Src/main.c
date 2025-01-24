@@ -21,6 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include <stdio.h>
 
 /* USER CODE END Includes */
 
@@ -100,10 +101,17 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+  int count = 0;
+  int val;
   while (1)
   {
-	  double a = count++ / 3.14;
-	  printf("UART Test ....%6.2f\r\n",a);
+	  printf("Input test number : \r\n");
+	  //printf("\033[%dA",1);
+	  setvbuf(stdin, NULL, _IONBF, 0);
+	  scanf("%d",&val);
+	  printf("Input number : %d\r\n", val);
+	  //double a = count++ / 3.14;
+	  //printf("UART Test ....%6.2f\r\n",a);
 	  HAL_Delay(500);
     /* USER CODE END WHILE */
 

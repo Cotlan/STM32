@@ -1,0 +1,10 @@
+16:31:54 **** Incremental Build of configuration Debug for project Practico-ADC ****
+make -j24 all 
+arm-none-eabi-size  Practico-ADC.elf 
+   text	   data	    bss	    dec	    hex	filename
+   7644	     20	   1644	   9308	   245c	Practico-ADC.elf
+Finished building: default.size.stdout
+ 
+
+16:31:54 Build Finished. 0 errors, 0 warnings. (took 293ms)
+

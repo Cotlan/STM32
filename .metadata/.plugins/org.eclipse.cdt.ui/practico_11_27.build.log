@@ -1,0 +1,33 @@
+17:53:24 **** Incremental Build of configuration Debug for project practico_11_27 ****
+make -j24 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:96:3: warning: implicit declaration of function 'ProgramStart' [-Wimplicit-function-declaration]
+   96 |   ProgramStart("UART-LCD");
+      |   ^~~~~~~~~~~~
+../Core/Src/main.c:97:3: warning: implicit declaration of function 'i2c_init' [-Wimplicit-function-declaration]
+   97 |   i2c_init(&hi2c2);
+      |   ^~~~~~~~
+../Core/Src/main.c:98:3: warning: implicit declaration of function 'i2c_scan' [-Wimplicit-function-declaration]
+   98 |   i2c_scan();
+      |   ^~~~~~~~
+../Core/Src/main.c:99:3: warning: implicit declaration of function 'lcd_init' [-Wimplicit-function-declaration]
+   99 |   lcd_init();
+      |   ^~~~~~~~
+../Core/Src/main.c:117:19: warning: implicit declaration of function 'lcd_printEx' [-Wimplicit-function-declaration]
+  117 |                   lcd_printEx(Buf,n);
+      |                   ^~~~~~~~~~~
+arm-none-eabi-gcc -o "practico_11_27.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\practico_11_27\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="practico_11_27.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: practico_11_27.elf
+ 
+arm-none-eabi-size  practico_11_27.elf 
+arm-none-eabi-objdump -h -S practico_11_27.elf  > "practico_11_27.list"
+   text	   data	    bss	    dec	    hex	filename
+  21888	    112	   2064	  24064	   5e00	practico_11_27.elf
+Finished building: default.size.stdout
+ 
+Finished building: practico_11_27.list
+ 
+
+17:53:25 Build Finished. 0 errors, 5 warnings. (took 746ms)
+

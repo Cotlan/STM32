@@ -1,0 +1,96 @@
+16:31:58 **** Incremental Build of configuration Debug for project Test004-ADC ****
+make -j24 all 
+arm-none-eabi-gcc "C:/Users/user/source/repos/STM32/myLib/MyLib.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/MyLib.d" -MT"Core/Src/MyLib.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/MyLib.o"
+C:/Users/user/source/repos/STM32/myLib/MyLib.c: In function '__io_getchar':
+C:/Users/user/source/repos/STM32/myLib/MyLib.c:17:36: warning: pointer targets in passing argument 2 of 'HAL_UART_Receive' differ in signedness [-Wpointer-sign]
+   17 |    while(HAL_UART_Receive(&huart2, &ch, 1, 10) != HAL_OK);
+      |                                    ^~~
+      |                                    |
+      |                                    char *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from C:/Users/user/source/repos/STM32/myLib/MyLib.c:7:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:746:72: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+  746 | HAL_StatusTypeDef HAL_UART_Receive(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                               ~~~~~~~~~^~~~~
+C:/Users/user/source/repos/STM32/myLib/MyLib.c:18:31: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+   18 |    HAL_UART_Transmit(&huart2, &ch, 1, 10); // echo: Serial ?†µ?‹ ?—?„œ ë°›ì? ?°?´?„°ë¥? ê·¸ë?ë¡? ?Œ? ¤ì£¼ëŠ” ê²?
+      |                               ^~~
+      |                               |
+      |                               char *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from C:/Users/user/source/repos/STM32/myLib/MyLib.c:7:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+C:/Users/user/source/repos/STM32/myLib/MyLib.c:19:46: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+   19 |    if(ch == '\r') HAL_UART_Transmit(&huart2, "\n", 1, 10);
+      |                                              ^~~~
+      |                                              |
+      |                                              char *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from C:/Users/user/source/repos/STM32/myLib/MyLib.c:7:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+C:/Users/user/source/repos/STM32/myLib/MyLib.c: In function '__io_putchar':
+C:/Users/user/source/repos/STM32/myLib/MyLib.c:24:31: warning: passing argument 2 of 'HAL_UART_Transmit' from incompatible pointer type [-Wincompatible-pointer-types]
+   24 |    HAL_UART_Transmit(&huart2, &ch, 1, 10); // timeout: 10ms
+      |                               ^~~
+      |                               |
+      |                               int *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from C:/Users/user/source/repos/STM32/myLib/MyLib.c:7:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'int *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+C:/Users/user/source/repos/STM32/myLib/MyLib.c: In function 'ProgramStart':
+C:/Users/user/source/repos/STM32/myLib/MyLib.c:30:4: warning: implicit declaration of function 'cls' [-Wimplicit-function-declaration]
+   30 |    cls();
+      |    ^~~
+C:/Users/user/source/repos/STM32/myLib/MyLib.c:31:4: warning: implicit declaration of function 'Cursor' [-Wimplicit-function-declaration]
+   31 |    Cursor(0,0);
+      |    ^~~~~~
+C:/Users/user/source/repos/STM32/myLib/MyLib.c:34:4: warning: implicit declaration of function 'StandBy' [-Wimplicit-function-declaration]
+   34 |    StandBy();
+      |    ^~~~~~~
+C:/Users/user/source/repos/STM32/myLib/MyLib.c: At top level:
+C:/Users/user/source/repos/STM32/myLib/MyLib.c:38:6: warning: conflicting types for 'StandBy'; have 'void()'
+   38 | void StandBy()
+      |      ^~~~~~~
+C:/Users/user/source/repos/STM32/myLib/MyLib.c:34:4: note: previous implicit declaration of 'StandBy' with type 'void()'
+   34 |    StandBy();
+      |    ^~~~~~~
+C:/Users/user/source/repos/STM32/myLib/MyLib.c:43:6: warning: conflicting types for 'cls'; have 'void()'
+   43 | void cls() // ?™”ë©? clear
+      |      ^~~
+C:/Users/user/source/repos/STM32/myLib/MyLib.c:30:4: note: previous implicit declaration of 'cls' with type 'void()'
+   30 |    cls();
+      |    ^~~
+C:/Users/user/source/repos/STM32/myLib/MyLib.c:48:6: warning: conflicting types for 'Cursor'; have 'void(int,  int)'
+   48 | void Cursor(int x, int y)
+      |      ^~~~~~
+C:/Users/user/source/repos/STM32/myLib/MyLib.c:31:4: note: previous implicit declaration of 'Cursor' with type 'void(int,  int)'
+   31 |    Cursor(0,0);
+      |    ^~~~~~
+arm-none-eabi-gcc -o "Test004-ADC.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\Test004-ADC\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Test004-ADC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Test004-ADC.elf
+ 
+arm-none-eabi-size  Test004-ADC.elf 
+arm-none-eabi-objdump -h -S Test004-ADC.elf  > "Test004-ADC.list"
+   text	   data	    bss	    dec	    hex	filename
+  18156	    112	   2048	  20316	   4f5c	Test004-ADC.elf
+Finished building: default.size.stdout
+ 
+Finished building: Test004-ADC.list
+ 
+
+16:31:58 Build Finished. 0 errors, 10 warnings. (took 747ms)
+

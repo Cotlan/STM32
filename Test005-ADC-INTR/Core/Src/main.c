@@ -77,8 +77,8 @@ void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef *hadc)//sampling complete
 		ch=0;
 	}
 	printf("Current ADC Value : (%d, %d)\r\n",val1,val2);
-	HAL_ADC_Start_IT(&hadc1);//
 }
+
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 {
 	HAL_ADC_Start_IT(&hadc1);

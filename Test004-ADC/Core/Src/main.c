@@ -104,16 +104,16 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 	  HAL_ADC_Start(&hadc1);
-	  HAL_ADC_PollForConversion(&hadc1,10);
+	  HAL_ADC_PollForConversion(&hadc1,10);//1 time sampling
 	  int val1 = HAL_ADC_GetValue(&hadc1)/51;
 
 	  HAL_ADC_Start(&hadc1);
-	  HAL_ADC_PollForConversion(&hadc1,10);
+	  HAL_ADC_PollForConversion(&hadc1,10);//1 time sampling
 	  int val2 = HAL_ADC_GetValue(&hadc1)/170;
 
 	  if(HAL_GPIO_ReadPin(B1_GPIO_Port, B1_Pin) == 0)
 	  {
-	  	  printf("\033[2J");//?ôîÎ©? clear
+	  	  printf("\033[2J");//?ÔøΩÔøΩÔøΩ? clear
 	  }
 	  if(HAL_GPIO_ReadPin(Zaxis_GPIO_Port, Zaxis_Pin) == 0)
 	  {
@@ -123,7 +123,7 @@ int main(void)
 	  }
 
 	  //printf("Joystick value - : (%d,%d)\r\n",val1,val2);
-	  printf("\033[0;0H"); //cursor?ã§?ãú ?ù¥?èô
+	  printf("\033[0;0H"); //cursor?ÔøΩÔøΩ?ÔøΩÔøΩ ?ÔøΩÔøΩ?ÔøΩÔøΩ
 
 	  HAL_Delay(100);
   }
