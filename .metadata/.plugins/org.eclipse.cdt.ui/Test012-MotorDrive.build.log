@@ -1,0 +1,43 @@
+16:35:07 **** Incremental Build of configuration Debug for project Test012-MotorDrive ****
+make -j24 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:101:12: warning: data definition has no type or storage class
+  101 | int t0= 0; t1=0;
+      |            ^~
+../Core/Src/main.c:101:12: warning: type defaults to 'int' in declaration of 't1' [-Wimplicit-int]
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:197:3: warning: implicit declaration of function 'ProgramStart' [-Wimplicit-function-declaration]
+  197 |   ProgramStart("DC Motor & Motor Driver Test");
+      |   ^~~~~~~~~~~~
+../Core/Src/main.c:210:17: warning: unused variable 'op' [-Wunused-variable]
+  210 |   int ccr1 = 0, op=10;
+      |                 ^~
+../Core/Src/main.c:210:7: warning: unused variable 'ccr1' [-Wunused-variable]
+  210 |   int ccr1 = 0, op=10;
+      |       ^~~~
+../Core/Src/main.c: In function 'StartTask04':
+../Core/Src/main.c:557:25: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  557 |                         printf("Current Distance : %d m %d cm (%d mm)(%d-%d)\r\n", dm, dc, dist,t1,t0);
+      |                         ^~~~~~
+../Core/Src/main.c:22:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   21 | #include "cmsis_os.h"
+  +++ |+#include <stdio.h>
+   22 | 
+../Core/Src/main.c:557:25: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  557 |                         printf("Current Distance : %d m %d cm (%d mm)(%d-%d)\r\n", dm, dc, dist,t1,t0);
+      |                         ^~~~~~
+../Core/Src/main.c:557:25: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "Test012-MotorDrive.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\Test012-MotorDrive\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Test012-MotorDrive.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Test012-MotorDrive.elf
+ 
+arm-none-eabi-size  Test012-MotorDrive.elf 
+arm-none-eabi-objdump -h -S Test012-MotorDrive.elf  > "Test012-MotorDrive.list"
+   text	   data	    bss	    dec	    hex	filename
+  32948	    132	  18596	  51676	   c9dc	Test012-MotorDrive.elf
+Finished building: default.size.stdout
+ 
+Finished building: Test012-MotorDrive.list
+ 
+
+16:35:08 Build Finished. 0 errors, 7 warnings. (took 900ms)
+

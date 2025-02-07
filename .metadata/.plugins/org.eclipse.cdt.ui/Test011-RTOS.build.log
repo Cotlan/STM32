@@ -1,0 +1,37 @@
+12:45:10 **** Incremental Build of configuration Debug for project Test011-RTOS ****
+make -j24 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:94:12: warning: data definition has no type or storage class
+   94 | int t0= 0; t1=0;
+      |            ^~
+../Core/Src/main.c:94:12: warning: type defaults to 'int' in declaration of 't1' [-Wimplicit-int]
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:191:3: warning: implicit declaration of function 'ProgramStart' [-Wimplicit-function-declaration]
+  191 |   ProgramStart("RTOS-Mission");
+      |   ^~~~~~~~~~~~
+../Core/Src/main.c: In function 'StartTask04':
+../Core/Src/main.c:482:17: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  482 |                 printf("Current Distance : %d m %d cm (%d mm)(%d-%d)\r\n", dm, dc, dist,t1,t0);
+      |                 ^~~~~~
+../Core/Src/main.c:22:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   21 | #include "cmsis_os.h"
+  +++ |+#include <stdio.h>
+   22 | 
+../Core/Src/main.c:482:17: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  482 |                 printf("Current Distance : %d m %d cm (%d mm)(%d-%d)\r\n", dm, dc, dist,t1,t0);
+      |                 ^~~~~~
+../Core/Src/main.c:482:17: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "Test011-RTOS.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\Test011-RTOS\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Test011-RTOS.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Test011-RTOS.elf
+ 
+arm-none-eabi-size  Test011-RTOS.elf 
+arm-none-eabi-objdump -h -S Test011-RTOS.elf  > "Test011-RTOS.list"
+   text	   data	    bss	    dec	    hex	filename
+  46536	    480	  18528	  65544	  10008	Test011-RTOS.elf
+Finished building: default.size.stdout
+ 
+Finished building: Test011-RTOS.list
+ 
+
+12:45:11 Build Finished. 0 errors, 5 warnings. (took 917ms)
+

@@ -68,6 +68,14 @@ void Error_Handler(void);
 #define LD2_GPIO_Port GPIOA
 #define D6_Pin GPIO_PIN_10
 #define D6_GPIO_Port GPIOB
+#define Servo_Pin GPIO_PIN_7
+#define Servo_GPIO_Port GPIOC
+#define Servo_EXTI_IRQn EXTI9_5_IRQn
+#define Trig_Pin GPIO_PIN_8
+#define Trig_GPIO_Port GPIOA
+#define Echo_Pin GPIO_PIN_9
+#define Echo_GPIO_Port GPIOA
+#define Echo_EXTI_IRQn EXTI9_5_IRQn
 #define TMS_Pin GPIO_PIN_13
 #define TMS_GPIO_Port GPIOA
 #define TCK_Pin GPIO_PIN_14

@@ -1,0 +1,1299 @@
+2025-02-06 09:35:43,339 [INFO] MainUpdater:2873 - connection check result : 10
+2025-02-06 09:35:43,456 [INFO] McuFinderGlobals:76 - Set McuFinderConnectedMode to true
+2025-02-06 09:35:43,460 [INFO] MultiScanPanel:200 - Auto-refresh data requested => check proxy status ongoing
+2025-02-06 09:35:43,462 [INFO] FinderPluginLoader:95 - Searching for filters in installed packs
+2025-02-06 09:35:44,064 [INFO] LoadUrlFilesThread:185 - End of LoadServerUrlFiles without Thread
+2025-02-06 09:35:44,071 [INFO] DetailPanel:341 - Set advertising image to C:/Users/user/STM32Cube/Repository/\en.prom-stm32n6-mcu-finder.png
+2025-02-06 09:35:46,096 [INFO] MultiScanPanel:200 - Auto-refresh data requested => check proxy status ongoing
+2025-02-06 09:35:46,150 [INFO] LoadUrlFilesThread:185 - End of LoadServerUrlFiles without Thread
+2025-02-06 09:35:46,150 [INFO] DetailPanel:341 - Set advertising image to C:/Users/user/STM32Cube/Repository/\en.prom-stm32n6-mcu-finder.png
+2025-02-06 09:35:46,155 [INFO] DbBoards:642 - Loading board mini-images...
+2025-02-06 09:35:46,615 [ERROR] DbBoards:659 - Image file not found for board NUCLEO-WB05KZ: C:\Users\user\.stmcufinder\plugins\mcufinder//mcu//boards_images/NUCLEO-WB05KZ.jpg
+2025-02-06 09:35:47,321 [INFO] DbBoards:665 - Loaded 202 board mini-images
+2025-02-06 09:36:11,614 [INFO] MainUpdater:2873 - connection check result : 10
+2025-02-06 09:36:11,614 [INFO] MainUpdater:2873 - connection check result : 10
+2025-02-06 09:36:11,731 [INFO] MicroXplorer:468 - Change Database Path : 
+2025-02-06 09:36:11,731 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.100
+2025-02-06 09:36:11,736 [ERROR] ProjectManagerView:394 - 
+java.lang.NullPointerException: Cannot invoke "javax.swing.JTextField.getText()" because the return value of "java.util.List.get(int)" is null
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab$10.caretUpdate(ProjectChoiceTab.java:2493) ~[filemanager.jar:?]
+	at javax.swing.text.JTextComponent.fireCaretUpdate(JTextComponent.java:412) ~[?:?]
+	at javax.swing.text.JTextComponent$MutableCaretEvent.fire(JTextComponent.java:4491) ~[?:?]
+	at javax.swing.text.JTextComponent$MutableCaretEvent.stateChanged(JTextComponent.java:4513) ~[?:?]
+	at javax.swing.text.DefaultCaret.fireStateChanged(DefaultCaret.java:842) ~[?:?]
+	at javax.swing.text.DefaultCaret.changeCaretPosition(DefaultCaret.java:1313) ~[?:?]
+	at javax.swing.text.DefaultCaret.handleSetDot(DefaultCaret.java:1212) ~[?:?]
+	at javax.swing.text.DefaultCaret.setDot(DefaultCaret.java:1193) ~[?:?]
+	at javax.swing.text.DefaultCaret$Handler.insertUpdate(DefaultCaret.java:1789) ~[?:?]
+	at javax.swing.text.AbstractDocument.fireInsertUpdate(AbstractDocument.java:226) ~[?:?]
+	at javax.swing.text.AbstractDocument.handleInsertString(AbstractDocument.java:780) ~[?:?]
+	at javax.swing.text.AbstractDocument.insertString(AbstractDocument.java:739) ~[?:?]
+	at javax.swing.text.PlainDocument.insertString(PlainDocument.java:131) ~[?:?]
+	at javax.swing.text.AbstractDocument.replace(AbstractDocument.java:698) ~[?:?]
+	at javax.swing.text.JTextComponent.setText(JTextComponent.java:1729) ~[?:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.createHeapStackFields(ProjectChoiceTab.java:933) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.buildLinkSettingsPanel(ProjectChoiceTab.java:3426) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.defineWindowsFields(ProjectChoiceTab.java:1813) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.updateSettings(ProjectChoiceTab.java:533) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectSettingsPanel.UpdateDialog(ProjectSettingsPanel.java:244) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.ProjectManagerView.propertyChange(ProjectManagerView.java:391) ~[filemanager.jar:?]
+	at java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:343) ~[?:?]
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:335) ~[?:?]
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:268) ~[?:?]
+	at com.st.microxplorer.util.MXPropertyChangeSupport.firePropertyChange(MXPropertyChangeSupport.java:54) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.mxsystem.MxSystem.closeConfig(MxSystem.java:900) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.maingui.MainPanel.closeConfig(MainPanel.java:776) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.plugins.filemanager.engine.OpenFileManager.loadConfigurationFile(OpenFileManager.java:245) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.filemanager.engine.MainFileManager.userLoadConfig(MainFileManager.java:290) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.filemanager.FileManagerView.getSpecificTask(FileManagerView.java:247) ~[filemanager.jar:?]
+	at com.st.stm32cube.common.mx.editor.CubeMxEditor.getMxTabbedPaneInstance(CubeMxEditor.java:1184) ~[com.st.stm32cube.common.mx_6.10.0.202311202037/:?]
+	at com.st.stm32cube.common.mx.editor.CubeMxEditor$12$1.createSwingComponent(CubeMxEditor.java:1065) ~[com.st.stm32cube.common.mx_6.10.0.202311202037/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.EmbeddedSwingComposite.doComponentCreation(EmbeddedSwingComposite.java:492) ~[com.st.stm32cube.common.mx.oss_6.10.0.202311202037/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.EmbeddedSwingComposite$4.run(EmbeddedSwingComposite.java:291) ~[com.st.stm32cube.common.mx.oss_6.10.0.202311202037/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.AwtEnvironment$2.run(AwtEnvironment.java:166) ~[com.st.stm32cube.common.mx.oss_6.10.0.202311202037/:?]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:720) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:714) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:399) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86) ~[?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:742) ~[?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) ~[?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) ~[?:?]
+2025-02-06 09:36:11,736 [WARN] ThirdParty:871 - waiting for thirdparty lock release [close project]
+2025-02-06 09:36:11,736 [INFO] ThirdParty:873 - entering critical section [close project]
+2025-02-06 09:36:11,736 [INFO] ThirdParty:883 - exiting critical section [close project]
+2025-02-06 09:36:11,737 [INFO] PinOutPanel:1499 - setPackage(No Configuration,No Configuration)
+2025-02-06 09:36:11,740 [WARN] IpParametersView:151 - Warning: This peripheral hasn't parameters
+2025-02-06 09:36:11,743 [WARN] MainPanel:272 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2025-02-06 09:36:11,746 [INFO] UtilMem:75 - Begin LoadConfig() Used Memory: 985192000 Bytes (1073741824)
+2025-02-06 09:36:11,746 [INFO] OpenFileManager:312 - Change cursor
+2025-02-06 09:36:11,752 [INFO] RulesReader:64 - Compatibility file has been processed (297 Rules)
+2025-02-06 09:36:11,753 [INFO] ProjectFactory:440 - No CPN specified for board NUCLEO-F411RE => set CPN to STM32F411RET6
+2025-02-06 09:36:11,753 [INFO] Mcu:2016 - Initializing MCU STM32F411R(C-E)Tx STM32F411RETx STM32F411RET6
+2025-02-06 09:36:12,161 [INFO] Context:659 - Trying to add GPIOservice into a context  which must be forbidden
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Secured memory - MPCBB1 is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Secured memory - MPCBB1 is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Secured memory - MPCBB2 is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Secured memory - MPCBB2 is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Secured memory - MPCBB3 is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Secured memory - MPCBB3 is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Secured memory - MPCBB4 is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Secured memory - MPCBB4 is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Secured memory - MPCBB1 is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Secured memory - MPCBB2 is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Secured memory - MPCBB3 is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Secured memory - MPCBB4 is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB1 is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB2 is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB3 is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB4 is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Privileged memory - MPCBB1 is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Privileged memory - MPCBB2 is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Privileged memory - MPCBB3 is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Privileged memory - MPCBB4 is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB1 is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB2 is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB3 is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB4 is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB1 is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB2 is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB3 is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB4 is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Privileged memory - MPCBB1 is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Privileged memory - MPCBB2 is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Privileged memory - MPCBB3 is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Privileged memory - MPCBB4 is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB1 is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB2 is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB3 is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB4 is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule Rename SubGHz_Phy SUBGHZ_APPLICATION SUBGHZ_PINGPONG to SUBGHZ_ADV_APPLICATION is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule Rename Enabled to IBEACON is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule GTZC_S instance for project manager is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule GTZC_S instance for context M33S is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule GTZC_S instance value for IP GTZC is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule GTZC_S instance for mcu.IP is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule GTZC_S instance for VP is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule GTZC_S instance for signal is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule GTZC_S instance for mcu.Pin is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule GTZC_S instance for VP is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule GTZC_S instance for signal is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule GTZC_S instance for mcu is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule GTZC_S instance for mcu.Pin is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule GTZC_S instance value for IP GTZC is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule GTZC_S instance for project manager is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule GTZC_S instance for context M33S is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule GTZC_S instance for VP is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule GTZC_S instance for signal is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule SPDIFRX instance for mcu is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule Rename Tracer Mode is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule SPDIFRX instance value for IP SPDIFRX is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule SPDIFRX instance for signal is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule SPDIFRX instance for project manager is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule SPDIFRX instance for project manager is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule ADC Scan  fix with FW F7 is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule ADC Scan  fix with FW F7 is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule WakeUp0 Mode is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule WakeUp0 SIGNAL is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule WakeUp1 Mode is applicable
+2025-02-06 09:36:12,229 [INFO] Rule:228 - rule WakeUp1 SIGNAL is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule WakeUp2 Mode is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule WakeUp2 SIGNAL is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule WakeUp4 Mode is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule WakeUp4 SIGNAL is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule WakeUp5 Mode is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule WakeUp5 SIGNAL is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Add RTC Activate Clock Source is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Add RTC Activate Calendar 1 is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Add RTC Activate Calendar 2 is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Add RTC Activate Calendar 3 is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule UART/USART TX Mode is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule UART/USART RX Mode is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule UART/USART RX TX Mode is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule UART/USART PARITY NONE is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule UART/USART PARITY EVEN is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule UART/USART PARITY ODD is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule USART StopBits 1 is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule USART StopBits 2 is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule USART StopBits 1.5 is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule USART StopBits 0.5 is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule UART/USART WORD LENGTH 7 is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule UART/USART WORD LENGTH 8 is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule UART/USART WORD LENGTH 9 is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Rename FMC NAND NCE signal is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Rename FMC NAND INT signal is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Change Default Value for LSE Drive Capability for WB family is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Change Default Value for ADC Clock Prescaler G0 family is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigConv L4 family is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigInjecConv L4 family is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigConv F3 family is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigInjecConv F3 family is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigConv Goldfish serie is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigInjecConv Goldfish serie is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigConv L0 family is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigConv F0 family is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigConvn L1 family is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigInjecConv L1 family is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigConv F1 family is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigInjecConv F1 family is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigConv F7 family is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigInjecConv F7 family is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigConv F4 and F2 family is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigInjecConv F4 and F2 family is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule ADC SamplingTime fix with FW L0  is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule ADC SamplingTime fix with FW L0  is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule ADC SamplingTime fix with FW L0 is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule ADC SamplingTime fix with FW L0 is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule ADC SamplingTime fix with FW L0  is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule ADC SamplingTime fix with FW L0 is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Rename USB_OE Signal is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Rename Activate_OE Mode is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Rename DIE462/DIE415 pin PC14/OSC32_IN -> PC14-OSC32_IN (PC14) is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Rename DIE462/DIE415 pin PC15/OSC32_OUT -> PC15-OSC32_OUT (PC15) is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Rename DIE462/DIE415 pin PH0/OSC_IN -> PH0-OSC_IN (PH0) is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Rename DIE462/DIE415 pin PH1/OSC_OUT -> PH1-OSC_OUT (PH1) is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Rename DIE462 pin PA13 -> PA13 (JTMS/SWDIO) is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Rename DIE415 pin PA13 -> PA13 (JTMS/SWDIO) is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Rename DIE462 pin PA14 -> PA14 (JTCK/SWCLK) is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Rename DIE415 pin PA14 -> PA14 (JTCK/SWCLK) is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Rename DIE462/DIE415 pin PA15 -> PA15 (JTDI) is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Rename DIE462 pin PB3 -> PB3 (JTD0/TRACESWO) is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Rename DIE415 pin PB3 -> PB3 (JTD0-TRACESWO) is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Rename DIE462/DIE415 pin PB4 -> PB4 (NJTRST) is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Rename DIE462 pin PH3/BOOT0 -> PH3-BOOT0 (BOOT0) is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Rename CRYP DataEncryptionTypesList to Algorithm is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Rename AES DataEncryptionTypesList to Algorithm is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Rename TDESECB to CRYP_TDES_ECB is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Rename TDESCBC to CRYP_TDES_CBC is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Rename DESECB to CRYP_DES_ECB is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Rename DESCBC to CRYP_DES_CBC is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Rename AESECB to CRYP_AES_ECB is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Rename AESCBC to CRYP_AES_CBC is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Rename AESCTR to CRYP_AES_CTR is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Rename AESGCM to CRYP_AES_GCM is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Rename AESCCM to CRYP_AES_CCM is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Rename CAN TimeSeg1 to BS1 is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Rename CAN TimeSeg2 to BS2 is applicable
+2025-02-06 09:36:12,230 [INFO] Rule:228 - rule Rename CAN SyncJumpWidth to SJW is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule TimeTriggeredMode to TTCM is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule Rename CAN AutoBusOff to ABOM is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule Rename CAN AutoWakeUp to AWUM is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule Rename CAN AutoRetransmission to NART is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule Rename CAN ReceiveFifoLocked to RFLM is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule Rename CAN TransmitFifoPriority to TXFP is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule Rename HRTIMER HRTIM_OUTPUTFAULTLEVEL_HIGH in HRTIMER HRTIM_OUTPUTFAULTLEVEL_HIGHZ is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule Rename TIMER TIM_CLEARINPUTSOURCE_OCREFCLR in  TIMER TIM_CLEARINPUTSOURCE_NONE for F7 family is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule FDCAN_R1 - Rename FDCAN mode Master into Classic is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule FDCAN_R2 - Rename FDCAN mode Slave into Classic is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule FDCAN1_R3 - if PA10.Mode=FullDuplex, add Pin PA12 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule FDCAN1_R3 - if PA9.Mode=FullDuplex, add Pin PA11 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule FDCAN1_R3 - Alternatepin_1 - if PE1.Mode=FullDuplex, add Pin PB9 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule FDCAN1_R3 - Alternatepin_1 - if PE0.Mode=FullDuplex, add Pin PB8 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule FDCAN1_R3 - Alternatepin_2 - if PD5.Mode=FullDuplex, add Pin PD1 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule FDCAN1_R3 - Alternatepin_2 - if PD4.Mode=FullDuplex, add Pin PD0 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule FDCAN1_R4 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PA10 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule FDCAN1_R4 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PA9 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule FDCAN1_R4 - Alternatepin_1 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PE1 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule FDCAN1_R4 - Alternatepin_1 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PE0 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule FDCAN1_R4 - Alternatepin_2 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD5 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule FDCAN1_R4 - Alternatepin_2 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD4 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule FDCAN2_R3 - if PD10.Mode=FullDuplex, add Pin PB13 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule FDCAN2_R3 - if PD9.Mode=FullDuplex, add Pin PB12 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule FDCAN2_R3 - Alternatepin_1 - if PB7.Mode=FullDuplex, add Pin PB6 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule FDCAN2_R3 - Alternatepin_1 - if PD9.Mode=FullDuplex, add Pin PB12 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule FDCAN2_R4 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD10 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule FDCAN2_R4 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD9 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule FDCAN2_R4 - Alternatepin_1 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PB7 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule FDCAN2_R4 - Alternatepin_1 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD6 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule USART TxPinLevelInvertParam Mode is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule USART RxPinLevelInvertParam Mode is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule USART DataInvertParam Mode is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule USART SwapParam Mode is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule USART OverrunDisableParam Mode is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule USART DMADisableonRxErrorParam Mode is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule USART MSBFirstParam Mode is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule Update MwName for USB_DEVICE is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule Change PWR_Regulator_Voltage_Scale Default Value for RCC  H7 family is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule UART/USART IPParameter rename Prescaler parameter to ClockPrescaler is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule UART/USART Prescaler rename Prescaler parameter to ClockPrescaler is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule TIM1CLockSelection is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule TIM15CLockSelection is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule align RCC SDMMC3CLockSelection default value on MP1 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule align RCC SDMMC12CLockSelection default value on MP1 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule align RCC QSPICLockSelection default value on MP1 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule align RCC QSPICLockSelection default value on MP1 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule align RCC SPI6CLockSelection default value on MP1 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule align RCC LPTIM23CLockSelection default value on MP1 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule align RCC LPTIM1CLockSelection default value on MP1 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule align RCC USART1CLockSelection default value on MP1 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule align RCC USART24CLockSelection default value on MP1 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule align RCC USART6CLockSelection default value on MP1 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule align RCC UART78CLockSelection default value on MP1 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule align RCC USART35CLockSelection default value on MP1 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule align RCC SPI45CLockSelection default value on MP1 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule align RCC I2C46CLockSelection BCLK value on MP1 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule align RCC SPI45CLockSelection default value on MP1 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule align RCC I2C12CLockSelection default value on MP1 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule align RCC I2C35CLockSelection default value on MP1 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule align RCC LPTIM45CLockSelection default value on MP1 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule Rename DCMI PIXCK signal is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule Change Default Value for I2C46CLockSelection MP1 family is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule Change Default Value for UART for G4, G0 and WB families is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule Change Default Value for USART for G4, G0 and WB families is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule Change Default Value for USART for G4 family is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule Change USART1CLockSelection refparam name for MP1 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule Change USART2CLockSelection refparam name for MP1 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule Change USART3CLockSelection refparam name for MP1 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule Change UART4CLockSelection refparam name for MP1 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule Change UART5CLockSelection refparam name for MP1 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule Change LPUART1CLockSelection refparam name for MP1 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule Change LPTIM1CLockSelection refparam name for MP1 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule Change LPTIM2CLockSelection refparam name for MP1 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule Change RCC_MCO1Source refparam name for MP1 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule Change LSCOSource1 refparam name for MP1 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule Change SMPSCLockSelection refparam name for MP1 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule Change LPTIM3CLockSelection refparam name for MP1 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule Change MPCBB* Default Template Mode to Parameters is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule Change MPCWM* or MPCBB* Secure Mode to Parameters is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule Change MPCWM* or MPCBB* No Secure Mode to Parameters is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule Change TZSC IP Secure Mode to Parameters is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule Change TZSC IP No Secure Mode to Parameters is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule Change TZSC IP Privilege Mode to Parameters is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule Change TZSC IP No Privilege Mode to Parameters is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule Change TZIC IT Secure Mode to Parameters is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule Change TZIC IT No Secure Mode to Parameters is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule Add MPCBB1_NonSecureArea_Start_Address value with referenced to MPCBB1_NonSecureArea_Start value is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule Add MPCBB2_NonSecureArea_Start_Address value with referenced to MPCBB2_NonSecureArea_Start value is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule Add MPCWM1_NonSecureArea*_Start_Address value with referenced to MPCWM1_NonSecureArea*_Start value is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule Add MPCWM2_NonSecureArea*_Start_Address value with referenced to MPCWM2_NonSecureArea*_Start value is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule Add MPCWM3_NonSecureArea_Start_Address value with referenced to MPCWM3_NonSecureArea_Start value is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule Change Default Value for PLL1UserDefinedConfig is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule Change GPIO_PuPd Default Value for USART in async mode is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule Change SMPSDivider Default Value is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule OPAMP is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32H7 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32H7 is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32WB is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32WB is applicable
+2025-02-06 09:36:12,231 [INFO] Rule:228 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32G4 is applicable
+2025-02-06 09:36:12,232 [INFO] Rule:228 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32G4 is applicable
+2025-02-06 09:36:12,232 [INFO] Rule:228 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32L5 is applicable
+2025-02-06 09:36:12,232 [INFO] Rule:228 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32L5 is applicable
+2025-02-06 09:36:12,232 [INFO] Rule:228 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32G4 is applicable
+2025-02-06 09:36:12,232 [INFO] Rule:228 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32G4 is applicable
+2025-02-06 09:36:12,232 [INFO] Rule:228 - rule USB device lib V2.5.3 for L0 rename USBD_SUPPORT_USER_STRING parameter to USBD_SUPPORT_USER_STRING_DESC4 is applicable
+2025-02-06 09:36:12,232 [INFO] Rule:228 - rule I2SCLockSelection clock entry align is applicable
+2025-02-06 09:36:12,232 [INFO] Rule:228 - rule Assign TIMx context if used as SYS timebase is applicable
+2025-02-06 09:36:12,232 [INFO] Rule:228 - rule Change GPIO_Pu Default Value for I2C is applicable
+2025-02-06 09:36:12,232 [INFO] Rule:228 - rule Change GPIO_Pu Default Value for SMBus is applicable
+2025-02-06 09:36:12,232 [INFO] Rule:228 - rule change FDCAN default value is applicable
+2025-02-06 09:36:12,232 [INFO] Rule:228 - rule Change mode sai is applicable
+2025-02-06 09:36:12,232 [INFO] Rule:228 - rule **Change sai mode is applicable
+2025-02-06 09:36:12,232 [INFO] Rule:228 - rule Rename STM32WPAN CFG_BLE_IRK to CFG_BLE_IR is applicable
+2025-02-06 09:36:12,232 [INFO] Rule:228 - rule Rename STM32WPAN CFG_BLE_ERK to CFG_BLE_ER is applicable
+2025-02-06 09:36:12,232 [INFO] Rule:228 - rule Rename STM32WPAN CFG_BLE_IRK_HEX to CFG_BLE_IR_HEX is applicable
+2025-02-06 09:36:12,232 [INFO] Rule:228 - rule Rename STM32WPAN CFG_BLE_ERK_HEX to CFG_BLE_ER_HEX is applicable
+2025-02-06 09:36:12,238 [INFO] DbConfProperties:307 - Apply Compatibility (49/262 Rules)
+2025-02-06 09:36:12,246 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) Unable to find key (Mcu.ThirdPartyNb) in loaded IOC file
+2025-02-06 09:36:12,283 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2025-02-06 09:36:12,283 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2025-02-06 09:36:12,283 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2025-02-06 09:36:12,283 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2025-02-06 09:36:12,283 [WARN] ModelIntegratedComponent:184 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2025-02-06 09:36:12,285 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:Audio HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2025-02-06 09:36:12,285 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:Audio HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2025-02-06 09:36:12,285 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:CDC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2025-02-06 09:36:12,285 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:CDC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2025-02-06 09:36:12,285 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MSC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2025-02-06 09:36:12,285 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MSC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2025-02-06 09:36:12,285 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:HID HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2025-02-06 09:36:12,285 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:HID HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2025-02-06 09:36:12,285 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MTP HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2025-02-06 09:36:12,285 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MTP HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2025-02-06 09:36:12,286 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-06 09:36:12,286 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-06 09:36:12,286 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-06 09:36:12,286 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-06 09:36:12,286 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-06 09:36:12,286 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-06 09:36:12,286 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-06 09:36:12,286 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-06 09:36:12,286 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-06 09:36:12,286 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-06 09:36:12,286 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-06 09:36:12,286 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-06 09:36:12,286 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-06 09:36:12,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-06 09:36:12,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-06 09:36:12,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-06 09:36:12,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-06 09:36:12,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-06 09:36:12,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-06 09:36:12,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-06 09:36:12,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-06 09:36:12,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-06 09:36:12,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-06 09:36:12,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-06 09:36:12,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-06 09:36:12,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-06 09:36:12,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-06 09:36:12,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-06 09:36:12,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-06 09:36:12,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-06 09:36:12,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-06 09:36:12,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-06 09:36:12,287 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-06 09:36:12,315 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Audio HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2025-02-06 09:36:12,315 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Audio HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2025-02-06 09:36:12,315 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:CDC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2025-02-06 09:36:12,315 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:CDC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2025-02-06 09:36:12,315 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:DFU HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2025-02-06 09:36:12,315 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:DFU HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2025-02-06 09:36:12,315 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2025-02-06 09:36:12,315 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2025-02-06 09:36:12,315 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Custom HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2025-02-06 09:36:12,315 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Custom HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2025-02-06 09:36:12,315 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:MSC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2025-02-06 09:36:12,315 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:MSC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2025-02-06 09:36:12,335 [INFO] ThirdPartyModel:298 - Start build external matchings
+2025-02-06 09:36:12,551 [INFO] ThirdPartyModel:316 - End build external matchings
+2025-02-06 09:36:12,555 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Parameter (48MHZClocksFreq_Value) has invalid value (84000000)
+2025-02-06 09:36:12,555 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Parameter (FLatency) has Id (AdvancedSettings) currently not set
+2025-02-06 09:36:12,555 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Parameter (RTCHSEDivFreq_Value) has invalid value (4000000)
+2025-02-06 09:36:12,675 [INFO] UtilMem:75 - End LoadConfig() Used Memory: 1009070344 Bytes (1073741824)
+2025-02-06 09:36:12,691 [INFO] MicroXplorer:468 - Change Database Path : 
+2025-02-06 09:36:12,691 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.100
+2025-02-06 09:36:12,692 [WARN] ThirdParty:833 - waiting for thirdparty lock release [change project]
+2025-02-06 09:36:12,692 [INFO] ThirdParty:835 - entering critical section [change project]
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USBPD 4.1
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.3.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC9 1.0.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENVWB1 1.4.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 2.0.1
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SMBUS 2.1.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-WB05N 1.1.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TCPP 4.1.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 2.1.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.2.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-IPS 3.0.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 2.0.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 7.0.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 7.0.1
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 2.0.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC6 3.1.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-STBOX1 2.0.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 11.0.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SAFEA1 1.2.2
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DPower 1.2.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :EmbeddedOffice I-CUBE-FS-RTOS 1.0.1
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-FLIGHT1 5.0.2
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :Cesanta I-CUBE-Mongoose 7.13.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 2.0.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 3.0.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :RealThread X-CUBE-RT-Thread_Nano 4.1.1
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 7.0.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC10 1.0.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :quantropi X-CUBE-qispace-sdk-base 1.9.3
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 4.0.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 5.1.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.2
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.3.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.3.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.7.4
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.1
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :ITTIA_DB I-CUBE-ITTIADB 8.9.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.24.2
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.24.1
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfTPM 3.4.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 3.1.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 10.0.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-SMARTAG2 1.2.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 11.1.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 2.0.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.1
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.4.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENV1 5.0.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7RS 1.0.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfMQTT 1.19.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 2.0.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :WES I-CUBE-Cesium 1.3.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.4.2
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 9.1.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :Infineon AIROC-Wi-Fi-Bluetooth-STM32 1.6.1
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2025-02-06 09:36:12,692 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSH 1.4.17
+2025-02-06 09:36:12,693 [INFO] ThirdParty:841 - exiting critical section [change project]
+2025-02-06 09:36:12,757 [INFO] PinOutPanel:1499 - setPackage(No Configuration,No Configuration)
+2025-02-06 09:36:12,758 [INFO] PinOutPanel:1499 - setPackage(STM32F411RETx,LQFP64)
+2025-02-06 09:36:12,875 [INFO] UtilMem:75 - Before build in PCC Used Memory: 1022191720 Bytes (1073741824)
+2025-02-06 09:36:12,954 [INFO] UtilMem:75 - After build in PCC Used Memory: 1018858232 Bytes (1073741824)
+2025-02-06 09:36:12,960 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-06 09:36:12,961 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-06 09:36:12,961 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-06 09:36:12,961 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-06 09:36:12,961 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-06 09:36:12,961 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-06 09:36:12,961 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-06 09:36:12,961 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-06 09:36:12,961 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-06 09:36:12,961 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-06 09:36:12,961 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-06 09:36:12,961 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-06 09:36:12,961 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-06 09:36:12,961 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-06 09:36:12,961 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-06 09:36:12,961 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-06 09:36:12,961 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-06 09:36:12,961 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-06 09:36:12,961 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-06 09:36:12,961 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-06 09:36:12,961 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-06 09:36:12,961 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-06 09:36:12,961 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-06 09:36:12,961 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-06 09:36:12,961 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-06 09:36:12,961 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-06 09:36:12,961 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-06 09:36:12,962 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-06 09:36:12,962 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-06 09:36:12,962 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-06 09:36:12,962 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-06 09:36:12,962 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-06 09:36:12,962 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-06 09:36:12,962 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-06 09:36:12,962 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-06 09:36:12,962 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-06 09:36:12,962 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-06 09:36:12,962 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-06 09:36:12,962 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-06 09:36:12,962 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-06 09:36:12,965 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-06 09:36:12,965 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-06 09:36:12,965 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-06 09:36:12,966 [INFO] ApiDbMcu:508 - Load IP Config File for PDM2PCM
+2025-02-06 09:36:12,982 [INFO] CADModel:165 - CPN selected for project levelSTM32F411RET6
+2025-02-06 09:36:12,982 [INFO] CADModel:114 - Register for checkConnection events
+2025-02-06 09:36:13,026 [INFO] OpenFileManager:343 - Restore cursor
+2025-02-06 09:36:13,188 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 992779296 Bytes (1073741824)
+2025-02-06 09:36:13,228 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 1008843736 Bytes (1073741824)
+2025-02-06 09:36:13,332 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2025-02-06 09:36:13,332 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2025-02-06 09:36:13,332 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2025-02-06 09:36:13,332 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2025-02-06 09:36:13,332 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2025-02-06 09:36:13,333 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\
+2025-02-06 09:36:13,605 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\license.tmp_save
+2025-02-06 09:36:13,648 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\license.tmp
+2025-02-06 09:36:13,665 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\gpio.tmp_save
+2025-02-06 09:36:13,715 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\gpio.tmp
+2025-02-06 09:36:13,737 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_it.c_save
+2025-02-06 09:36:13,815 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_it.c
+2025-02-06 09:36:13,819 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\stm32f4xx_it.h_save
+2025-02-06 09:36:13,849 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\stm32f4xx_it.h
+2025-02-06 09:36:13,858 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_hal_msp.c_save
+2025-02-06 09:36:13,899 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_hal_msp.c
+2025-02-06 09:36:13,903 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\system.tmp_save
+2025-02-06 09:36:13,928 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\system.tmp
+2025-02-06 09:36:13,936 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\stm32f4xx_hal_conf.h_save
+2025-02-06 09:36:13,968 [INFO] CodeEngine:335 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\stm32f4xx_hal_conf.h
+2025-02-06 09:36:13,990 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\main.h_save
+2025-02-06 09:36:14,040 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\main.h
+2025-02-06 09:36:14,044 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\main.c_save
+2025-02-06 09:36:14,115 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\main.c
+2025-02-06 09:36:14,457 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 161mS.
+2025-02-06 09:36:14,461 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2025-02-06 09:36:14,570 [INFO] ConfigFileManager:1495 - The Die is : DIE431
+2025-02-06 09:36:14,572 [INFO] ApiDbMcu:508 - Load IP Config File for FATFS
+2025-02-06 09:36:14,574 [INFO] ApiDbMcu:508 - Load IP Config File for FREERTOS
+2025-02-06 09:36:14,575 [INFO] ApiDbMcu:508 - Load IP Config File for LIBJPEG
+2025-02-06 09:36:14,578 [INFO] ApiDbMcu:508 - Load IP Config File for MBEDTLS
+2025-02-06 09:36:14,581 [INFO] ApiDbMcu:508 - Load IP Config File for USB_DEVICE
+2025-02-06 09:36:14,582 [INFO] ApiDbMcu:508 - Load IP Config File for USB_HOST
+2025-02-06 09:36:16,074 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 1613mS.
+2025-02-06 09:36:16,074 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2025-02-06 09:36:16,078 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2025-02-06 09:36:17,253 [INFO] McuFinderGlobals:76 - Set McuFinderConnectedMode to true
+2025-02-06 09:36:17,258 [INFO] ApiDb:448 - Save user favorites file C:\Users\user/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2025-02-06 09:36:17,258 [INFO] ApiDb:452 - User favorites MCUs=[]
+2025-02-06 09:36:17,259 [INFO] ApiDb:448 - Save user favorites file C:\Users\user/.stm32cubeide/favorites.boards.txt: 1 item(s)
+2025-02-06 09:36:17,259 [INFO] ApiDb:452 - User favorites Boards=[NUCLEO-F411RE]
+2025-02-06 09:37:20,563 [INFO] RtosManager:919 - Current active RTOS is FREERTOS [Cortex-M4NS]
+2025-02-06 09:37:20,687 [ERROR] RtosPanel:558 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2025-02-06 09:37:20,709 [ERROR] RtosPanel:558 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2025-02-06 09:37:36,582 [ERROR] RtosPanel:558 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2025-02-06 09:37:52,156 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 822442312 Bytes (1073741824)
+2025-02-06 09:37:53,437 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 734287480 Bytes (1073741824)
+2025-02-06 09:37:53,507 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2025-02-06 09:37:53,507 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: FREERTOS
+2025-02-06 09:37:53,507 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2025-02-06 09:37:53,507 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2025-02-06 09:37:53,507 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2025-02-06 09:37:53,507 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2025-02-06 09:37:53,507 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\
+2025-02-06 09:37:53,558 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\license.tmp_save
+2025-02-06 09:37:53,587 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\license.tmp
+2025-02-06 09:37:53,596 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\gpio.tmp_save
+2025-02-06 09:37:53,625 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\gpio.tmp
+2025-02-06 09:37:53,646 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2025-02-06 09:37:53,652 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_inc.tmp_save
+2025-02-06 09:37:53,678 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_inc.tmp
+2025-02-06 09:37:53,682 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_vars.tmp_save
+2025-02-06 09:37:53,728 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_vars.tmp
+2025-02-06 09:37:53,732 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_pfp.tmp_save
+2025-02-06 09:37:53,760 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_pfp.tmp
+2025-02-06 09:37:53,763 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_obj_creat.tmp_save
+2025-02-06 09:37:53,791 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_obj_creat.tmp
+2025-02-06 09:37:53,794 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_kernelStart.tmp_save
+2025-02-06 09:37:53,830 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_kernelStart.tmp
+2025-02-06 09:37:53,834 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_default_thread.tmp_save
+2025-02-06 09:37:53,860 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_default_thread.tmp
+2025-02-06 09:37:53,864 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_threads.tmp_save
+2025-02-06 09:37:53,891 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_threads.tmp
+2025-02-06 09:37:53,898 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2025-02-06 09:37:53,905 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_inc.tmp_save
+2025-02-06 09:37:53,933 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_inc.tmp
+2025-02-06 09:37:53,937 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_vars.tmp_save
+2025-02-06 09:37:53,965 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_vars.tmp
+2025-02-06 09:37:53,970 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_pfp.tmp_save
+2025-02-06 09:37:53,997 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_pfp.tmp
+2025-02-06 09:37:54,002 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_obj_creat.tmp_save
+2025-02-06 09:37:54,031 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_obj_creat.tmp
+2025-02-06 09:37:54,036 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_kernelStart.tmp_save
+2025-02-06 09:37:54,062 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_kernelStart.tmp
+2025-02-06 09:37:54,068 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_default_thread.tmp_save
+2025-02-06 09:37:54,096 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_default_thread.tmp
+2025-02-06 09:37:54,101 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_threads.tmp_save
+2025-02-06 09:37:54,128 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_threads.tmp
+2025-02-06 09:37:54,132 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\FreeRTOSConfig.h_save
+2025-02-06 09:37:54,169 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\FreeRTOSConfig.h
+2025-02-06 09:37:54,173 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\freertos.c_save
+2025-02-06 09:37:54,203 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\freertos.c
+2025-02-06 09:37:54,213 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_it.c_save
+2025-02-06 09:37:54,250 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_it.c
+2025-02-06 09:37:54,255 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\stm32f4xx_it.h_save
+2025-02-06 09:37:54,301 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\stm32f4xx_it.h
+2025-02-06 09:37:54,312 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_hal_msp.c_save
+2025-02-06 09:37:54,370 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_hal_msp.c
+2025-02-06 09:37:54,375 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\system.tmp_save
+2025-02-06 09:37:54,422 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\system.tmp
+2025-02-06 09:37:54,426 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2025-02-06 09:37:54,465 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_hal_timebase_tim.c
+2025-02-06 09:37:54,474 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\stm32f4xx_hal_conf.h_save
+2025-02-06 09:37:54,507 [INFO] CodeEngine:335 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\stm32f4xx_hal_conf.h
+2025-02-06 09:37:54,523 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\main.h_save
+2025-02-06 09:37:54,553 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\main.h
+2025-02-06 09:37:54,558 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\main.c_save
+2025-02-06 09:37:54,609 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\main.c
+2025-02-06 09:37:55,054 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 252mS.
+2025-02-06 09:37:55,058 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2025-02-06 09:37:55,164 [INFO] ConfigFileManager:1495 - The Die is : DIE431
+2025-02-06 09:37:55,903 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 845mS.
+2025-02-06 09:37:55,904 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2025-02-06 09:37:55,914 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2025-02-06 09:48:29,794 [ERROR] RtosPanel:558 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2025-02-06 09:48:29,863 [ERROR] RtosPanel:558 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2025-02-06 09:48:50,002 [ERROR] RtosPanel:558 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2025-02-06 09:49:00,550 [ERROR] RtosPanel:558 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2025-02-06 09:49:15,490 [ERROR] RtosPanel:558 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2025-02-06 09:51:13,255 [ERROR] RtosPanel:558 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2025-02-06 09:51:24,773 [ERROR] RtosPanel:558 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2025-02-06 09:56:23,262 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 865501496 Bytes (1073741824)
+2025-02-06 09:56:26,030 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 731069824 Bytes (1073741824)
+2025-02-06 09:56:26,121 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2025-02-06 09:56:26,121 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: FREERTOS
+2025-02-06 09:56:26,121 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2025-02-06 09:56:26,121 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2025-02-06 09:56:26,121 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2025-02-06 09:56:26,121 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2025-02-06 09:56:26,122 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\
+2025-02-06 09:56:26,189 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\license.tmp_save
+2025-02-06 09:56:26,244 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\license.tmp
+2025-02-06 09:56:26,261 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\gpio.tmp_save
+2025-02-06 09:56:26,296 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\gpio.tmp
+2025-02-06 09:56:26,340 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2025-02-06 09:56:26,346 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_inc.tmp_save
+2025-02-06 09:56:26,374 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_inc.tmp
+2025-02-06 09:56:26,378 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_vars.tmp_save
+2025-02-06 09:56:26,414 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_vars.tmp
+2025-02-06 09:56:26,418 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_pfp.tmp_save
+2025-02-06 09:56:26,445 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_pfp.tmp
+2025-02-06 09:56:26,448 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_obj_creat.tmp_save
+2025-02-06 09:56:26,476 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_obj_creat.tmp
+2025-02-06 09:56:26,480 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_kernelStart.tmp_save
+2025-02-06 09:56:26,505 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_kernelStart.tmp
+2025-02-06 09:56:26,509 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_default_thread.tmp_save
+2025-02-06 09:56:26,535 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_default_thread.tmp
+2025-02-06 09:56:26,538 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_threads.tmp_save
+2025-02-06 09:56:26,565 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_threads.tmp
+2025-02-06 09:56:26,571 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2025-02-06 09:56:26,578 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_inc.tmp_save
+2025-02-06 09:56:26,603 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_inc.tmp
+2025-02-06 09:56:26,609 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_vars.tmp_save
+2025-02-06 09:56:26,637 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_vars.tmp
+2025-02-06 09:56:26,642 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_pfp.tmp_save
+2025-02-06 09:56:26,669 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_pfp.tmp
+2025-02-06 09:56:26,674 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_obj_creat.tmp_save
+2025-02-06 09:56:26,702 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_obj_creat.tmp
+2025-02-06 09:56:26,707 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_kernelStart.tmp_save
+2025-02-06 09:56:26,733 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_kernelStart.tmp
+2025-02-06 09:56:26,738 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_default_thread.tmp_save
+2025-02-06 09:56:26,766 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_default_thread.tmp
+2025-02-06 09:56:26,771 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_threads.tmp_save
+2025-02-06 09:56:26,798 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_threads.tmp
+2025-02-06 09:56:26,804 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\FreeRTOSConfig.h_save
+2025-02-06 09:56:26,849 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\FreeRTOSConfig.h
+2025-02-06 09:56:26,855 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\freertos.c_save
+2025-02-06 09:56:26,896 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\freertos.c
+2025-02-06 09:56:26,911 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_it.c_save
+2025-02-06 09:56:26,999 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_it.c
+2025-02-06 09:56:27,004 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\stm32f4xx_it.h_save
+2025-02-06 09:56:27,042 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\stm32f4xx_it.h
+2025-02-06 09:56:27,052 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_hal_msp.c_save
+2025-02-06 09:56:27,095 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_hal_msp.c
+2025-02-06 09:56:27,099 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\system.tmp_save
+2025-02-06 09:56:27,124 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\system.tmp
+2025-02-06 09:56:27,129 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2025-02-06 09:56:27,161 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_hal_timebase_tim.c
+2025-02-06 09:56:27,169 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\stm32f4xx_hal_conf.h_save
+2025-02-06 09:56:27,202 [INFO] CodeEngine:335 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\stm32f4xx_hal_conf.h
+2025-02-06 09:56:27,218 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\main.h_save
+2025-02-06 09:56:27,260 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\main.h
+2025-02-06 09:56:27,266 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\main.c_save
+2025-02-06 09:56:27,319 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\main.c
+2025-02-06 09:56:27,764 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 259mS.
+2025-02-06 09:56:27,767 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2025-02-06 09:56:27,875 [INFO] ConfigFileManager:1495 - The Die is : DIE431
+2025-02-06 09:56:28,561 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 794mS.
+2025-02-06 09:56:28,562 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2025-02-06 09:56:28,569 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2025-02-06 10:28:19,781 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 778530688 Bytes (1073741824)
+2025-02-06 10:29:00,071 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 861306816 Bytes (1073741824)
+2025-02-06 10:29:00,141 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2025-02-06 10:29:00,141 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: FREERTOS
+2025-02-06 10:29:00,141 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2025-02-06 10:29:00,141 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2025-02-06 10:29:00,141 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2025-02-06 10:29:00,141 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2025-02-06 10:29:00,141 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2025-02-06 10:29:00,142 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\
+2025-02-06 10:29:00,227 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\license.tmp_save
+2025-02-06 10:29:00,268 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\license.tmp
+2025-02-06 10:29:00,283 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\gpio.tmp_save
+2025-02-06 10:29:00,319 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\gpio.tmp
+2025-02-06 10:29:00,387 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2025-02-06 10:29:00,394 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_inc.tmp_save
+2025-02-06 10:29:00,423 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_inc.tmp
+2025-02-06 10:29:00,426 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_vars.tmp_save
+2025-02-06 10:29:00,455 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_vars.tmp
+2025-02-06 10:29:00,458 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_pfp.tmp_save
+2025-02-06 10:29:00,484 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_pfp.tmp
+2025-02-06 10:29:00,487 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_obj_creat.tmp_save
+2025-02-06 10:29:00,514 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_obj_creat.tmp
+2025-02-06 10:29:00,518 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_kernelStart.tmp_save
+2025-02-06 10:29:00,544 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_kernelStart.tmp
+2025-02-06 10:29:00,547 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_default_thread.tmp_save
+2025-02-06 10:29:00,574 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_default_thread.tmp
+2025-02-06 10:29:00,577 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_threads.tmp_save
+2025-02-06 10:29:00,603 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_threads.tmp
+2025-02-06 10:29:00,611 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2025-02-06 10:29:00,620 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_inc.tmp_save
+2025-02-06 10:29:00,648 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_inc.tmp
+2025-02-06 10:29:00,654 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_vars.tmp_save
+2025-02-06 10:29:00,688 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_vars.tmp
+2025-02-06 10:29:00,693 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_pfp.tmp_save
+2025-02-06 10:29:00,719 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_pfp.tmp
+2025-02-06 10:29:00,724 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_obj_creat.tmp_save
+2025-02-06 10:29:00,752 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_obj_creat.tmp
+2025-02-06 10:29:00,757 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_kernelStart.tmp_save
+2025-02-06 10:29:00,784 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_kernelStart.tmp
+2025-02-06 10:29:00,788 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_default_thread.tmp_save
+2025-02-06 10:29:00,817 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_default_thread.tmp
+2025-02-06 10:29:00,822 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_threads.tmp_save
+2025-02-06 10:29:00,849 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_threads.tmp
+2025-02-06 10:29:00,855 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\FreeRTOSConfig.h_save
+2025-02-06 10:29:00,896 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\FreeRTOSConfig.h
+2025-02-06 10:29:00,905 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\freertos.c_save
+2025-02-06 10:29:00,936 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\freertos.c
+2025-02-06 10:29:00,946 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_it.c_save
+2025-02-06 10:29:01,015 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_it.c
+2025-02-06 10:29:01,022 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\stm32f4xx_it.h_save
+2025-02-06 10:29:01,058 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\stm32f4xx_it.h
+2025-02-06 10:29:01,069 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_hal_msp.c_save
+2025-02-06 10:29:01,138 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_hal_msp.c
+2025-02-06 10:29:01,143 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\system.tmp_save
+2025-02-06 10:29:01,173 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\system.tmp
+2025-02-06 10:29:01,179 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2025-02-06 10:29:01,212 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_hal_timebase_tim.c
+2025-02-06 10:29:01,223 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\stm32f4xx_hal_conf.h_save
+2025-02-06 10:29:01,257 [INFO] CodeEngine:335 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\stm32f4xx_hal_conf.h
+2025-02-06 10:29:01,267 [WARN] IPConfigManager:3440 - IP not found : TIM
+2025-02-06 10:29:01,268 [WARN] CodeGenerator:3939 - IP not found : null
+2025-02-06 10:29:01,275 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\main.h_save
+2025-02-06 10:29:01,317 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\main.h
+2025-02-06 10:29:01,322 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\main.c_save
+2025-02-06 10:29:01,382 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\main.c
+2025-02-06 10:29:01,848 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 251mS.
+2025-02-06 10:29:01,852 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2025-02-06 10:29:01,963 [INFO] ConfigFileManager:1495 - The Die is : DIE431
+2025-02-06 10:29:02,677 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 825mS.
+2025-02-06 10:29:02,677 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2025-02-06 10:29:02,702 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2025-02-06 10:42:46,380 [INFO] Gpio:277 - dependency for GPIO [RCC, SYS, USART2]
+2025-02-06 10:44:38,471 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 858425824 Bytes (1073741824)
+2025-02-06 10:44:41,479 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 730590784 Bytes (1073741824)
+2025-02-06 10:44:41,566 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2025-02-06 10:44:41,566 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: FREERTOS
+2025-02-06 10:44:41,566 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2025-02-06 10:44:41,566 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2025-02-06 10:44:41,566 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2025-02-06 10:44:41,566 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2025-02-06 10:44:41,566 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2025-02-06 10:44:41,567 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\
+2025-02-06 10:44:41,633 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\license.tmp_save
+2025-02-06 10:44:41,686 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\license.tmp
+2025-02-06 10:44:41,700 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\gpio.tmp_save
+2025-02-06 10:44:41,734 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\gpio.tmp
+2025-02-06 10:44:41,773 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2025-02-06 10:44:41,778 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_inc.tmp_save
+2025-02-06 10:44:41,819 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_inc.tmp
+2025-02-06 10:44:41,823 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_vars.tmp_save
+2025-02-06 10:44:41,853 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_vars.tmp
+2025-02-06 10:44:41,856 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_pfp.tmp_save
+2025-02-06 10:44:41,882 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_pfp.tmp
+2025-02-06 10:44:41,885 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_obj_creat.tmp_save
+2025-02-06 10:44:41,922 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_obj_creat.tmp
+2025-02-06 10:44:41,926 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_kernelStart.tmp_save
+2025-02-06 10:44:41,953 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_kernelStart.tmp
+2025-02-06 10:44:41,957 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_default_thread.tmp_save
+2025-02-06 10:44:41,984 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_default_thread.tmp
+2025-02-06 10:44:41,987 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_threads.tmp_save
+2025-02-06 10:44:42,013 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_threads.tmp
+2025-02-06 10:44:42,022 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2025-02-06 10:44:42,028 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_inc.tmp_save
+2025-02-06 10:44:42,055 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_inc.tmp
+2025-02-06 10:44:42,060 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_vars.tmp_save
+2025-02-06 10:44:42,088 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_vars.tmp
+2025-02-06 10:44:42,093 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_pfp.tmp_save
+2025-02-06 10:44:42,120 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_pfp.tmp
+2025-02-06 10:44:42,125 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_obj_creat.tmp_save
+2025-02-06 10:44:42,154 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_obj_creat.tmp
+2025-02-06 10:44:42,158 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_kernelStart.tmp_save
+2025-02-06 10:44:42,186 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_kernelStart.tmp
+2025-02-06 10:44:42,191 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_default_thread.tmp_save
+2025-02-06 10:44:42,218 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_default_thread.tmp
+2025-02-06 10:44:42,222 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_threads.tmp_save
+2025-02-06 10:44:42,250 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_threads.tmp
+2025-02-06 10:44:42,255 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\FreeRTOSConfig.h_save
+2025-02-06 10:44:42,304 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\FreeRTOSConfig.h
+2025-02-06 10:44:42,310 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\freertos.c_save
+2025-02-06 10:44:42,355 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\freertos.c
+2025-02-06 10:44:42,368 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_it.c_save
+2025-02-06 10:44:42,468 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_it.c
+2025-02-06 10:44:42,474 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\stm32f4xx_it.h_save
+2025-02-06 10:44:42,506 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\stm32f4xx_it.h
+2025-02-06 10:44:42,517 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_hal_msp.c_save
+2025-02-06 10:44:42,561 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_hal_msp.c
+2025-02-06 10:44:42,565 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\system.tmp_save
+2025-02-06 10:44:42,591 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\system.tmp
+2025-02-06 10:44:42,595 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2025-02-06 10:44:42,627 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_hal_timebase_tim.c
+2025-02-06 10:44:42,637 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\stm32f4xx_hal_conf.h_save
+2025-02-06 10:44:42,670 [INFO] CodeEngine:335 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\stm32f4xx_hal_conf.h
+2025-02-06 10:44:42,679 [WARN] IPConfigManager:3440 - IP not found : TIM
+2025-02-06 10:44:42,680 [WARN] CodeGenerator:3939 - IP not found : null
+2025-02-06 10:44:42,686 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\main.h_save
+2025-02-06 10:44:42,724 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\main.h
+2025-02-06 10:44:42,730 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\main.c_save
+2025-02-06 10:44:42,786 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\main.c
+2025-02-06 10:44:43,244 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 267mS.
+2025-02-06 10:44:43,248 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2025-02-06 10:44:43,359 [INFO] ConfigFileManager:1495 - The Die is : DIE431
+2025-02-06 10:44:44,099 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 851mS.
+2025-02-06 10:44:44,100 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 1mS.
+2025-02-06 10:44:44,123 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2025-02-06 10:52:45,986 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 812288568 Bytes (1073741824)
+2025-02-06 10:52:46,068 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2025-02-06 10:52:46,068 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: FREERTOS
+2025-02-06 10:52:46,068 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2025-02-06 10:52:46,068 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2025-02-06 10:52:46,068 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2025-02-06 10:52:46,068 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2025-02-06 10:52:46,068 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2025-02-06 10:52:46,069 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\
+2025-02-06 10:52:46,135 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\license.tmp_save
+2025-02-06 10:52:46,195 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\license.tmp
+2025-02-06 10:52:46,209 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\gpio.tmp_save
+2025-02-06 10:52:46,244 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\gpio.tmp
+2025-02-06 10:52:46,296 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2025-02-06 10:52:46,301 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_inc.tmp_save
+2025-02-06 10:52:46,328 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_inc.tmp
+2025-02-06 10:52:46,341 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_vars.tmp_save
+2025-02-06 10:52:46,372 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_vars.tmp
+2025-02-06 10:52:46,375 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_pfp.tmp_save
+2025-02-06 10:52:46,402 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_pfp.tmp
+2025-02-06 10:52:46,405 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_obj_creat.tmp_save
+2025-02-06 10:52:46,435 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_obj_creat.tmp
+2025-02-06 10:52:46,438 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_kernelStart.tmp_save
+2025-02-06 10:52:46,466 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_kernelStart.tmp
+2025-02-06 10:52:46,470 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_default_thread.tmp_save
+2025-02-06 10:52:46,495 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_default_thread.tmp
+2025-02-06 10:52:46,498 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_threads.tmp_save
+2025-02-06 10:52:46,525 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_threads.tmp
+2025-02-06 10:52:46,533 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2025-02-06 10:52:46,539 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_inc.tmp_save
+2025-02-06 10:52:46,566 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_inc.tmp
+2025-02-06 10:52:46,571 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_vars.tmp_save
+2025-02-06 10:52:46,599 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_vars.tmp
+2025-02-06 10:52:46,604 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_pfp.tmp_save
+2025-02-06 10:52:46,643 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_pfp.tmp
+2025-02-06 10:52:46,650 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_obj_creat.tmp_save
+2025-02-06 10:52:46,686 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_obj_creat.tmp
+2025-02-06 10:52:46,691 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_kernelStart.tmp_save
+2025-02-06 10:52:46,724 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_kernelStart.tmp
+2025-02-06 10:52:46,731 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_default_thread.tmp_save
+2025-02-06 10:52:46,777 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_default_thread.tmp
+2025-02-06 10:52:46,784 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_threads.tmp_save
+2025-02-06 10:52:46,817 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_threads.tmp
+2025-02-06 10:52:46,822 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\FreeRTOSConfig.h_save
+2025-02-06 10:52:46,860 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\FreeRTOSConfig.h
+2025-02-06 10:52:46,865 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\freertos.c_save
+2025-02-06 10:52:46,896 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\freertos.c
+2025-02-06 10:52:46,907 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_it.c_save
+2025-02-06 10:52:46,977 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_it.c
+2025-02-06 10:52:46,983 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\stm32f4xx_it.h_save
+2025-02-06 10:52:47,012 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\stm32f4xx_it.h
+2025-02-06 10:52:47,022 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_hal_msp.c_save
+2025-02-06 10:52:47,065 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_hal_msp.c
+2025-02-06 10:52:47,069 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\system.tmp_save
+2025-02-06 10:52:47,095 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\system.tmp
+2025-02-06 10:52:47,099 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2025-02-06 10:52:47,131 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_hal_timebase_tim.c
+2025-02-06 10:52:47,141 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\stm32f4xx_hal_conf.h_save
+2025-02-06 10:52:47,173 [INFO] CodeEngine:335 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\stm32f4xx_hal_conf.h
+2025-02-06 10:52:47,183 [WARN] IPConfigManager:3440 - IP not found : TIM
+2025-02-06 10:52:47,184 [WARN] CodeGenerator:3939 - IP not found : null
+2025-02-06 10:52:47,190 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\main.h_save
+2025-02-06 10:52:47,229 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\main.h
+2025-02-06 10:52:47,234 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\main.c_save
+2025-02-06 10:52:47,287 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\main.c
+2025-02-06 10:52:47,708 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 216mS.
+2025-02-06 10:52:47,711 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2025-02-06 10:52:47,829 [INFO] ConfigFileManager:1495 - The Die is : DIE431
+2025-02-06 10:52:48,708 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 997mS.
+2025-02-06 10:52:48,709 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2025-02-06 10:52:48,718 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2025-02-06 10:57:52,239 [INFO] Gpio:277 - dependency for GPIO [RCC, SYS, USART2]
+2025-02-06 10:57:52,269 [ERROR] RtosPanel:558 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2025-02-06 10:57:55,756 [INFO] TasksAndQueuesTab:757 - Dynamic
+2025-02-06 10:57:55,756 [WARN] TasksAndQueuesTab:763 - 128 128
+2025-02-06 10:57:55,756 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2025-02-06 10:58:30,171 [INFO] EditThreadDialog:704 - RAM SIZE (in KB): 128
+2025-02-06 10:58:30,171 [INFO] EditThreadDialog:706 - RAM SIZE (in words): 32768
+2025-02-06 10:59:36,909 [INFO] TasksAndQueuesTab:757 - Dynamic
+2025-02-06 10:59:36,909 [WARN] TasksAndQueuesTab:763 - 128 128
+2025-02-06 10:59:36,909 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2025-02-06 10:59:45,282 [INFO] EditThreadDialog:704 - RAM SIZE (in KB): 128
+2025-02-06 10:59:45,282 [INFO] EditThreadDialog:706 - RAM SIZE (in words): 32768
+2025-02-06 10:59:49,700 [INFO] TasksAndQueuesTab:757 - Dynamic
+2025-02-06 10:59:49,700 [WARN] TasksAndQueuesTab:763 - 128 128
+2025-02-06 10:59:49,700 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2025-02-06 10:59:49,700 [INFO] TasksAndQueuesTab:757 - Dynamic
+2025-02-06 10:59:49,700 [WARN] TasksAndQueuesTab:763 - 128 128
+2025-02-06 10:59:49,700 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2025-02-06 10:59:52,203 [INFO] EditThreadDialog:704 - RAM SIZE (in KB): 128
+2025-02-06 10:59:52,203 [INFO] EditThreadDialog:706 - RAM SIZE (in words): 32768
+2025-02-06 10:59:53,155 [INFO] TasksAndQueuesTab:757 - Dynamic
+2025-02-06 10:59:53,155 [WARN] TasksAndQueuesTab:763 - 128 128
+2025-02-06 10:59:53,155 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2025-02-06 10:59:53,155 [INFO] TasksAndQueuesTab:757 - Dynamic
+2025-02-06 10:59:53,155 [WARN] TasksAndQueuesTab:763 - 128 128
+2025-02-06 10:59:53,155 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2025-02-06 10:59:53,155 [INFO] TasksAndQueuesTab:757 - Dynamic
+2025-02-06 10:59:53,155 [WARN] TasksAndQueuesTab:763 - 128 128
+2025-02-06 10:59:53,155 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2025-02-06 10:59:58,202 [INFO] EditThreadDialog:704 - RAM SIZE (in KB): 128
+2025-02-06 10:59:58,202 [INFO] EditThreadDialog:706 - RAM SIZE (in words): 32768
+2025-02-06 10:59:58,964 [INFO] TasksAndQueuesTab:757 - Dynamic
+2025-02-06 10:59:58,964 [WARN] TasksAndQueuesTab:763 - 128 128
+2025-02-06 10:59:58,964 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2025-02-06 10:59:58,964 [INFO] TasksAndQueuesTab:757 - Dynamic
+2025-02-06 10:59:58,964 [WARN] TasksAndQueuesTab:763 - 128 128
+2025-02-06 10:59:58,964 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2025-02-06 10:59:58,964 [INFO] TasksAndQueuesTab:757 - Dynamic
+2025-02-06 10:59:58,964 [WARN] TasksAndQueuesTab:763 - 128 128
+2025-02-06 10:59:58,964 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2025-02-06 10:59:58,964 [INFO] TasksAndQueuesTab:757 - Dynamic
+2025-02-06 10:59:58,964 [WARN] TasksAndQueuesTab:763 - 128 128
+2025-02-06 10:59:58,964 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2025-02-06 11:00:02,978 [INFO] EditThreadDialog:704 - RAM SIZE (in KB): 128
+2025-02-06 11:00:02,978 [INFO] EditThreadDialog:706 - RAM SIZE (in words): 32768
+2025-02-06 11:00:08,020 [INFO] TasksAndQueuesTab:757 - Dynamic
+2025-02-06 11:00:08,020 [WARN] TasksAndQueuesTab:763 - 128 128
+2025-02-06 11:00:08,020 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2025-02-06 11:00:08,020 [INFO] TasksAndQueuesTab:757 - Dynamic
+2025-02-06 11:00:08,020 [WARN] TasksAndQueuesTab:763 - 128 128
+2025-02-06 11:00:08,020 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2025-02-06 11:00:08,020 [INFO] TasksAndQueuesTab:757 - Dynamic
+2025-02-06 11:00:08,020 [WARN] TasksAndQueuesTab:763 - 128 128
+2025-02-06 11:00:08,020 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2025-02-06 11:00:08,020 [INFO] TasksAndQueuesTab:757 - Dynamic
+2025-02-06 11:00:08,020 [WARN] TasksAndQueuesTab:763 - 128 128
+2025-02-06 11:00:08,021 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2025-02-06 11:00:11,819 [INFO] EditThreadDialog:704 - RAM SIZE (in KB): 128
+2025-02-06 11:00:11,819 [INFO] EditThreadDialog:706 - RAM SIZE (in words): 32768
+2025-02-06 11:00:19,339 [INFO] TasksAndQueuesTab:757 - Dynamic
+2025-02-06 11:00:19,339 [WARN] TasksAndQueuesTab:763 - 128 128
+2025-02-06 11:00:19,339 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2025-02-06 11:00:19,339 [INFO] TasksAndQueuesTab:757 - Dynamic
+2025-02-06 11:00:19,339 [WARN] TasksAndQueuesTab:763 - 128 128
+2025-02-06 11:00:19,339 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2025-02-06 11:00:19,339 [INFO] TasksAndQueuesTab:757 - Dynamic
+2025-02-06 11:00:19,339 [WARN] TasksAndQueuesTab:763 - 128 128
+2025-02-06 11:00:19,339 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2025-02-06 11:00:19,339 [INFO] TasksAndQueuesTab:757 - Dynamic
+2025-02-06 11:00:19,339 [WARN] TasksAndQueuesTab:763 - 128 128
+2025-02-06 11:00:19,339 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2025-02-06 11:00:22,043 [INFO] EditThreadDialog:704 - RAM SIZE (in KB): 128
+2025-02-06 11:00:22,043 [INFO] EditThreadDialog:706 - RAM SIZE (in words): 32768
+2025-02-06 11:00:25,980 [INFO] TasksAndQueuesTab:757 - Dynamic
+2025-02-06 11:00:25,980 [WARN] TasksAndQueuesTab:763 - 128 128
+2025-02-06 11:00:25,980 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2025-02-06 11:00:25,980 [INFO] TasksAndQueuesTab:757 - Dynamic
+2025-02-06 11:00:25,980 [WARN] TasksAndQueuesTab:763 - 128 128
+2025-02-06 11:00:25,981 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2025-02-06 11:00:25,981 [INFO] TasksAndQueuesTab:757 - Dynamic
+2025-02-06 11:00:25,981 [WARN] TasksAndQueuesTab:763 - 128 128
+2025-02-06 11:00:25,981 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2025-02-06 11:00:25,981 [INFO] TasksAndQueuesTab:757 - Dynamic
+2025-02-06 11:00:25,981 [WARN] TasksAndQueuesTab:763 - 128 128
+2025-02-06 11:00:25,981 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2025-02-06 11:00:30,403 [INFO] EditThreadDialog:704 - RAM SIZE (in KB): 128
+2025-02-06 11:00:30,403 [INFO] EditThreadDialog:706 - RAM SIZE (in words): 32768
+2025-02-06 11:00:34,876 [INFO] TasksAndQueuesTab:757 - Dynamic
+2025-02-06 11:00:34,876 [WARN] TasksAndQueuesTab:763 - 128 128
+2025-02-06 11:00:34,876 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2025-02-06 11:00:34,876 [INFO] TasksAndQueuesTab:757 - Dynamic
+2025-02-06 11:00:34,876 [WARN] TasksAndQueuesTab:763 - 128 128
+2025-02-06 11:00:34,876 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2025-02-06 11:00:34,876 [INFO] TasksAndQueuesTab:757 - Dynamic
+2025-02-06 11:00:34,877 [WARN] TasksAndQueuesTab:763 - 128 128
+2025-02-06 11:00:34,877 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2025-02-06 11:00:34,877 [INFO] TasksAndQueuesTab:757 - Dynamic
+2025-02-06 11:00:34,877 [WARN] TasksAndQueuesTab:763 - 128 128
+2025-02-06 11:00:34,877 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2025-02-06 11:00:49,283 [INFO] EditThreadDialog:704 - RAM SIZE (in KB): 128
+2025-02-06 11:00:49,283 [INFO] EditThreadDialog:706 - RAM SIZE (in words): 32768
+2025-02-06 11:00:52,415 [INFO] TasksAndQueuesTab:757 - Dynamic
+2025-02-06 11:00:52,415 [WARN] TasksAndQueuesTab:763 - 128 128
+2025-02-06 11:00:52,415 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2025-02-06 11:00:52,415 [INFO] TasksAndQueuesTab:757 - Dynamic
+2025-02-06 11:00:52,415 [WARN] TasksAndQueuesTab:763 - 128 128
+2025-02-06 11:00:52,415 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2025-02-06 11:00:52,415 [INFO] TasksAndQueuesTab:757 - Dynamic
+2025-02-06 11:00:52,415 [WARN] TasksAndQueuesTab:763 - 128 128
+2025-02-06 11:00:52,415 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2025-02-06 11:00:52,415 [INFO] TasksAndQueuesTab:757 - Dynamic
+2025-02-06 11:00:52,415 [WARN] TasksAndQueuesTab:763 - 128 128
+2025-02-06 11:00:52,415 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2025-02-06 11:00:53,227 [INFO] EditThreadDialog:704 - RAM SIZE (in KB): 128
+2025-02-06 11:00:53,227 [INFO] EditThreadDialog:706 - RAM SIZE (in words): 32768
+2025-02-06 11:00:56,439 [INFO] TasksAndQueuesTab:757 - Dynamic
+2025-02-06 11:00:56,439 [WARN] TasksAndQueuesTab:763 - 128 128
+2025-02-06 11:00:56,439 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2025-02-06 11:00:56,439 [INFO] TasksAndQueuesTab:757 - Dynamic
+2025-02-06 11:00:56,439 [WARN] TasksAndQueuesTab:763 - 128 128
+2025-02-06 11:00:56,439 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2025-02-06 11:00:56,439 [INFO] TasksAndQueuesTab:757 - Dynamic
+2025-02-06 11:00:56,439 [WARN] TasksAndQueuesTab:763 - 128 128
+2025-02-06 11:00:56,439 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2025-02-06 11:00:56,439 [INFO] TasksAndQueuesTab:757 - Dynamic
+2025-02-06 11:00:56,439 [WARN] TasksAndQueuesTab:763 - 128 128
+2025-02-06 11:00:56,439 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2025-02-06 11:00:57,155 [INFO] EditThreadDialog:704 - RAM SIZE (in KB): 128
+2025-02-06 11:00:57,155 [INFO] EditThreadDialog:706 - RAM SIZE (in words): 32768
+2025-02-06 11:18:00,809 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 779734400 Bytes (1073741824)
+2025-02-06 11:18:03,753 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 920243584 Bytes (1073741824)
+2025-02-06 11:18:03,838 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2025-02-06 11:18:03,838 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: FREERTOS
+2025-02-06 11:18:03,838 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2025-02-06 11:18:03,838 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2025-02-06 11:18:03,838 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2025-02-06 11:18:03,838 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2025-02-06 11:18:03,838 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2025-02-06 11:18:03,839 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\
+2025-02-06 11:18:03,919 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\license.tmp_save
+2025-02-06 11:18:03,968 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\license.tmp
+2025-02-06 11:18:03,983 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\gpio.tmp_save
+2025-02-06 11:18:04,034 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\gpio.tmp
+2025-02-06 11:18:04,092 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2025-02-06 11:18:04,098 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_inc.tmp_save
+2025-02-06 11:18:04,127 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_inc.tmp
+2025-02-06 11:18:04,131 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_vars.tmp_save
+2025-02-06 11:18:04,161 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_vars.tmp
+2025-02-06 11:18:04,165 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_pfp.tmp_save
+2025-02-06 11:18:04,193 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_pfp.tmp
+2025-02-06 11:18:04,196 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_obj_creat.tmp_save
+2025-02-06 11:18:04,232 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_obj_creat.tmp
+2025-02-06 11:18:04,236 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_kernelStart.tmp_save
+2025-02-06 11:18:04,265 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_kernelStart.tmp
+2025-02-06 11:18:04,269 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_default_thread.tmp_save
+2025-02-06 11:18:04,297 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_default_thread.tmp
+2025-02-06 11:18:04,301 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_threads.tmp_save
+2025-02-06 11:18:04,328 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_threads.tmp
+2025-02-06 11:18:04,338 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2025-02-06 11:18:04,345 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_inc.tmp_save
+2025-02-06 11:18:04,374 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_inc.tmp
+2025-02-06 11:18:04,380 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_vars.tmp_save
+2025-02-06 11:18:04,409 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_vars.tmp
+2025-02-06 11:18:04,415 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_pfp.tmp_save
+2025-02-06 11:18:04,444 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_pfp.tmp
+2025-02-06 11:18:04,450 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_obj_creat.tmp_save
+2025-02-06 11:18:04,479 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_obj_creat.tmp
+2025-02-06 11:18:04,485 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_kernelStart.tmp_save
+2025-02-06 11:18:04,514 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_kernelStart.tmp
+2025-02-06 11:18:04,519 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_default_thread.tmp_save
+2025-02-06 11:18:04,554 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_default_thread.tmp
+2025-02-06 11:18:04,558 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_threads.tmp_save
+2025-02-06 11:18:04,587 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_threads.tmp
+2025-02-06 11:18:04,592 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\FreeRTOSConfig.h_save
+2025-02-06 11:18:04,631 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\FreeRTOSConfig.h
+2025-02-06 11:18:04,637 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\freertos.c_save
+2025-02-06 11:18:04,668 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\freertos.c
+2025-02-06 11:18:04,679 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_it.c_save
+2025-02-06 11:18:04,753 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_it.c
+2025-02-06 11:18:04,759 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\stm32f4xx_it.h_save
+2025-02-06 11:18:04,790 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\stm32f4xx_it.h
+2025-02-06 11:18:04,800 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_hal_msp.c_save
+2025-02-06 11:18:04,849 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_hal_msp.c
+2025-02-06 11:18:04,854 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\system.tmp_save
+2025-02-06 11:18:04,886 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\system.tmp
+2025-02-06 11:18:04,892 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2025-02-06 11:18:04,941 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_hal_timebase_tim.c
+2025-02-06 11:18:04,956 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\stm32f4xx_hal_conf.h_save
+2025-02-06 11:18:05,013 [INFO] CodeEngine:335 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\stm32f4xx_hal_conf.h
+2025-02-06 11:18:05,025 [WARN] IPConfigManager:3440 - IP not found : TIM
+2025-02-06 11:18:05,026 [WARN] CodeGenerator:3939 - IP not found : null
+2025-02-06 11:18:05,034 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\main.h_save
+2025-02-06 11:18:05,084 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\main.h
+2025-02-06 11:18:05,089 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\main.c_save
+2025-02-06 11:18:05,149 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\main.c
+2025-02-06 11:18:05,627 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 282mS.
+2025-02-06 11:18:05,632 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2025-02-06 11:18:05,741 [INFO] ConfigFileManager:1495 - The Die is : DIE431
+2025-02-06 11:18:06,475 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 843mS.
+2025-02-06 11:18:06,476 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 1mS.
+2025-02-06 11:18:06,484 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2025-02-06 11:23:46,687 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 745666376 Bytes (1073741824)
+2025-02-06 11:23:46,781 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2025-02-06 11:23:46,781 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: FREERTOS
+2025-02-06 11:23:46,781 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2025-02-06 11:23:46,781 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2025-02-06 11:23:46,781 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2025-02-06 11:23:46,781 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2025-02-06 11:23:46,781 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2025-02-06 11:23:46,782 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\
+2025-02-06 11:23:46,849 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\license.tmp_save
+2025-02-06 11:23:46,922 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\license.tmp
+2025-02-06 11:23:46,937 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\gpio.tmp_save
+2025-02-06 11:23:46,974 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\gpio.tmp
+2025-02-06 11:23:47,021 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2025-02-06 11:23:47,027 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_inc.tmp_save
+2025-02-06 11:23:47,053 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_inc.tmp
+2025-02-06 11:23:47,056 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_vars.tmp_save
+2025-02-06 11:23:47,085 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_vars.tmp
+2025-02-06 11:23:47,088 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_pfp.tmp_save
+2025-02-06 11:23:47,114 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_pfp.tmp
+2025-02-06 11:23:47,118 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_obj_creat.tmp_save
+2025-02-06 11:23:47,150 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_obj_creat.tmp
+2025-02-06 11:23:47,154 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_kernelStart.tmp_save
+2025-02-06 11:23:47,182 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_kernelStart.tmp
+2025-02-06 11:23:47,185 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_default_thread.tmp_save
+2025-02-06 11:23:47,212 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_default_thread.tmp
+2025-02-06 11:23:47,215 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_threads.tmp_save
+2025-02-06 11:23:47,242 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_threads.tmp
+2025-02-06 11:23:47,251 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2025-02-06 11:23:47,257 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_inc.tmp_save
+2025-02-06 11:23:47,285 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_inc.tmp
+2025-02-06 11:23:47,290 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_vars.tmp_save
+2025-02-06 11:23:47,319 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_vars.tmp
+2025-02-06 11:23:47,323 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_pfp.tmp_save
+2025-02-06 11:23:47,350 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_pfp.tmp
+2025-02-06 11:23:47,355 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_obj_creat.tmp_save
+2025-02-06 11:23:47,384 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_obj_creat.tmp
+2025-02-06 11:23:47,389 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_kernelStart.tmp_save
+2025-02-06 11:23:47,416 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_kernelStart.tmp
+2025-02-06 11:23:47,427 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_default_thread.tmp_save
+2025-02-06 11:23:47,460 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_default_thread.tmp
+2025-02-06 11:23:47,466 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_threads.tmp_save
+2025-02-06 11:23:47,500 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_threads.tmp
+2025-02-06 11:23:47,505 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\FreeRTOSConfig.h_save
+2025-02-06 11:23:47,567 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\FreeRTOSConfig.h
+2025-02-06 11:23:47,573 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\freertos.c_save
+2025-02-06 11:23:47,608 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\freertos.c
+2025-02-06 11:23:47,619 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_it.c_save
+2025-02-06 11:23:47,686 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_it.c
+2025-02-06 11:23:47,692 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\stm32f4xx_it.h_save
+2025-02-06 11:23:47,722 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\stm32f4xx_it.h
+2025-02-06 11:23:47,731 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_hal_msp.c_save
+2025-02-06 11:23:47,775 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_hal_msp.c
+2025-02-06 11:23:47,780 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\system.tmp_save
+2025-02-06 11:23:47,807 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\system.tmp
+2025-02-06 11:23:47,812 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2025-02-06 11:23:47,844 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_hal_timebase_tim.c
+2025-02-06 11:23:47,853 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\stm32f4xx_hal_conf.h_save
+2025-02-06 11:23:47,886 [INFO] CodeEngine:335 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\stm32f4xx_hal_conf.h
+2025-02-06 11:23:47,897 [WARN] IPConfigManager:3440 - IP not found : TIM
+2025-02-06 11:23:47,897 [WARN] CodeGenerator:3939 - IP not found : null
+2025-02-06 11:23:47,903 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\main.h_save
+2025-02-06 11:23:47,942 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\main.h
+2025-02-06 11:23:47,947 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\main.c_save
+2025-02-06 11:23:48,007 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\main.c
+2025-02-06 11:23:48,440 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 215mS.
+2025-02-06 11:23:48,443 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2025-02-06 11:23:48,556 [INFO] ConfigFileManager:1495 - The Die is : DIE431
+2025-02-06 11:23:49,269 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 826mS.
+2025-02-06 11:23:49,270 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 1mS.
+2025-02-06 11:23:49,277 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2025-02-06 11:38:14,292 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 771199376 Bytes (1073741824)
+2025-02-06 11:38:15,687 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 868190608 Bytes (1073741824)
+2025-02-06 11:38:15,759 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2025-02-06 11:38:15,759 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: FREERTOS
+2025-02-06 11:38:15,759 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2025-02-06 11:38:15,759 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2025-02-06 11:38:15,759 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2025-02-06 11:38:15,759 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2025-02-06 11:38:15,759 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2025-02-06 11:38:15,760 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\
+2025-02-06 11:38:15,844 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\license.tmp_save
+2025-02-06 11:38:15,884 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\license.tmp
+2025-02-06 11:38:15,898 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\gpio.tmp_save
+2025-02-06 11:38:15,939 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\gpio.tmp
+2025-02-06 11:38:16,020 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2025-02-06 11:38:16,026 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_inc.tmp_save
+2025-02-06 11:38:16,053 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_inc.tmp
+2025-02-06 11:38:16,056 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_vars.tmp_save
+2025-02-06 11:38:16,090 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_vars.tmp
+2025-02-06 11:38:16,093 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_pfp.tmp_save
+2025-02-06 11:38:16,126 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_pfp.tmp
+2025-02-06 11:38:16,129 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_obj_creat.tmp_save
+2025-02-06 11:38:16,158 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_obj_creat.tmp
+2025-02-06 11:38:16,161 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_kernelStart.tmp_save
+2025-02-06 11:38:16,187 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_kernelStart.tmp
+2025-02-06 11:38:16,190 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_default_thread.tmp_save
+2025-02-06 11:38:16,223 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_default_thread.tmp
+2025-02-06 11:38:16,226 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_threads.tmp_save
+2025-02-06 11:38:16,252 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_threads.tmp
+2025-02-06 11:38:16,261 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2025-02-06 11:38:16,268 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_inc.tmp_save
+2025-02-06 11:38:16,295 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_inc.tmp
+2025-02-06 11:38:16,300 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_vars.tmp_save
+2025-02-06 11:38:16,328 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_vars.tmp
+2025-02-06 11:38:16,333 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_pfp.tmp_save
+2025-02-06 11:38:16,361 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_pfp.tmp
+2025-02-06 11:38:16,365 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_obj_creat.tmp_save
+2025-02-06 11:38:16,394 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_obj_creat.tmp
+2025-02-06 11:38:16,399 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_kernelStart.tmp_save
+2025-02-06 11:38:16,425 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_kernelStart.tmp
+2025-02-06 11:38:16,430 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_default_thread.tmp_save
+2025-02-06 11:38:16,458 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_default_thread.tmp
+2025-02-06 11:38:16,462 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_threads.tmp_save
+2025-02-06 11:38:16,490 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\rtos_threads.tmp
+2025-02-06 11:38:16,495 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\FreeRTOSConfig.h_save
+2025-02-06 11:38:16,532 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\FreeRTOSConfig.h
+2025-02-06 11:38:16,537 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\freertos.c_save
+2025-02-06 11:38:16,575 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\freertos.c
+2025-02-06 11:38:16,591 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_it.c_save
+2025-02-06 11:38:16,702 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_it.c
+2025-02-06 11:38:16,710 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\stm32f4xx_it.h_save
+2025-02-06 11:38:16,745 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\stm32f4xx_it.h
+2025-02-06 11:38:16,755 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_hal_msp.c_save
+2025-02-06 11:38:16,798 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_hal_msp.c
+2025-02-06 11:38:16,802 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\system.tmp_save
+2025-02-06 11:38:16,829 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\MXTmpFiles\system.tmp
+2025-02-06 11:38:16,834 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2025-02-06 11:38:16,865 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\stm32f4xx_hal_timebase_tim.c
+2025-02-06 11:38:16,875 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\stm32f4xx_hal_conf.h_save
+2025-02-06 11:38:16,907 [INFO] CodeEngine:335 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\stm32f4xx_hal_conf.h
+2025-02-06 11:38:16,916 [WARN] IPConfigManager:3440 - IP not found : TIM
+2025-02-06 11:38:16,917 [WARN] CodeGenerator:3939 - IP not found : null
+2025-02-06 11:38:16,924 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\main.h_save
+2025-02-06 11:38:16,968 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Inc\main.h
+2025-02-06 11:38:16,975 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\main.c_save
+2025-02-06 11:38:17,040 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Test011-RTOS\Core\Src\main.c
+2025-02-06 11:38:17,473 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 228mS.
+2025-02-06 11:38:17,476 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2025-02-06 11:38:17,583 [INFO] ConfigFileManager:1495 - The Die is : DIE431
+2025-02-06 11:38:18,437 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 961mS.
+2025-02-06 11:38:18,438 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 1mS.
+2025-02-06 11:38:18,445 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
